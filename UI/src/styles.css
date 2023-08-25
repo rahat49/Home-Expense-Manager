@@ -1,0 +1,13 @@
+:root {
+    --sideNavBG: rgba(34, 34, 34, 1);
+    --listItemHover: rgba(255, 255, 255, 0.3);
+    --shadow-black: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  
+    --header-height: 60px;
+    --side-nav-open-width: 250px;
+    --side-nav-close-width: 0px;
+  }
+  
+  body {
+    font-family: "Poppins", sans-serif;
+  }

@@ -1,0 +1,13 @@
+<div class="side-nav-content ">
+
+    <ul class="nav-list">
+
+        <li class="nav-list-item " *ngFor="let navItem of navigationList"
+        (click)="newMonthNavigationClicked({monthYear: navItem.monthYear, monthNumber:navItem.monthNumber})">
+            <a href="#">
+                {{navItem.monthNumber | numberToMonth |titlecase  }}
+                {{navItem.monthYear ==='all'?'All Months': navItem.monthYear}}
+            </a>
+        </li>
+    </ul>
+</div>
